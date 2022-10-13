@@ -1,5 +1,5 @@
 ---
-name: Tasks
+name: Task
 about: What is the task?
 title: ''
 labels: ''
