@@ -1,0 +1,88 @@
+* {
+    background-color: #dcbf86c8;
+}
+
+h1 {        /* Main title */
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: solid;
+    font-family: cursive;
+}
+
+body {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#dogSounds {
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 1in;
+    padding-top: 2mm;
+    padding-right: 2mm;
+    padding-bottom: 2mm;
+    position: static;
+}
+.attendeesInfo:active {
+    color: red;
+}
+
+
+a[href="https://www.instagram.com/barackobama/"], a[href="https://www.instagram.com/snoopdogg/"] {
+    color: #07651ac8;
+}
+
+li:hover {
+    color: white;
+}
+
+ol > li {
+    color: purple;
+}
+
+h4 + p {
+    background-color: #dcceb0c8;
+}
+
+h1 ~ h2, h3 {
+    background-color: #dcceb0c8;
+}
+
+div.dogVideo {
+    border-style: solid;
+    border-color: black;
+    border-width: 2mm;
+    background-color: #dcceb0c8;
+    margin: 2em 2em 2em 2em;
+    padding: 1vh 1vw 1vh 1vw;
+    width: 40%;
+    position: relative; left: 80px;
+    flex-grow: 2;
+}
+
+#dontShow{
+    display: none;
+}
+
+#bolded {
+    display: block;
+}
+
+#randomSegment{
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+@media (hover:hover) {
+    li:hover {
+        background: lightcoral;
+    }
+}
